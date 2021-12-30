@@ -1,1 +1,29 @@
 /* Write your CSS here */
+.container-1 {
+  display: flex;
+}
+
+.container__half-1 {
+  flex: 3;
+  background-color: #475569;
+  color: #ffffff;
+  padding: 15px;
+}
+.container__half-1 h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.container__half-2 {
+  flex: 2;
+}
+.ulList {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.status-text {
+  font-size: 22px;
+  font-weight: bold;
+}
